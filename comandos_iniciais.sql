@@ -1,0 +1,15 @@
+-- CREATE DATABASE aula
+
+-- USE aula;
+
+-- SHOW TABLES 
+
+-- DROP TABLE pessoa
+
+CREATE TABLE Pessoa(
+	cpf CHAR(11) PRIMARY KEY,
+	nome VARCHAR(100)
+	CONSTRAINT PK_pessoa PRIMARY KEY(cpf)
+);
+
+
