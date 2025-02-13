@@ -62,4 +62,3 @@ WHERE país LIKE '%a%';
 USE aula;
 SELECT * FROM paises
 WHERE país LIKE '__a%';
-
